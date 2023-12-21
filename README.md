@@ -16,9 +16,9 @@ Implementation of the Client-Server Architecture : Push, using Remote Method Inv
 
 ## Further information :
 
-- Two users can't have the same nickname.
+- Two users cannot have the same nickname.
 - User can send a message to himself.
-- Every information is printed on server-side.
+- All information is printed on server-side.
 
 ## Model Description (Subject)
 
