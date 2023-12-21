@@ -14,6 +14,12 @@ Implementation of the Client-Server Architecture : Push, using Remote Method Inv
 
 5. Finally, the <b><u>receiver</u></b> receives the message from the <b><u>emitter</u></b> in its <b>command line terminal</b>.
 
+## Further information :
+
+- Two users can't have the same nickname.
+- User can send a message to himself.
+- Every information is printed on server-side.
+
 ## Model Description (Subject)
 
 > <code>Client</code> apps own a reception component : <code>ReceiverImpl</code>, that enable <code>Server</code> app to send them immediately received messages (instant messaging).

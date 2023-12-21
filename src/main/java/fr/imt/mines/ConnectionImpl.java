@@ -25,6 +25,8 @@ public class ConnectionImpl extends UnicastRemoteObject implements Connection {
             userList.add(nickname);
             sessions.put(nickname, rcv);
             System.out.println("(+) " + nickname);
+        } else {
+            System.out.println("[System] : Error - Nickname \""+ nickname +"\" already use.");
         }
         return (Emitter) userEmitter;
     }
