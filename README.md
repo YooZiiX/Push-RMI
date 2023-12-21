@@ -1,6 +1,6 @@
-# Push Architecture en CLI
+# Push Architecture in CLI
 
-
+Implementation of the Client-Server Architecture : Push, using Remote Method Invocation.
 
 ## How to run ?
 
@@ -16,13 +16,14 @@
 
 ## Model Description (Subject)
 
-<code>Client</code> apps own a reception component : <code>ReceiverImpl</code>, that enable <code>Server</code> app to send them immediately received messages (instant messaging).
-
-Reception components also provide functions that enable <code>Server</code> app to push to clients the list of connected clients (<code>initClients</code> function) then to update this list (<code>addClient</code> and <code>remClient</code> functions).
-
-Reception component <code>ReceiverImpl</code> references are provided to <code>Server</code> app thanks to an input parameter (<code>Receiver</code>) of the connect function of the server’s <code>Connection</code> component. 
-This function returns a reference of the <code>Emitter</code> component that is instantiated to be used by the client to send messages to the <code>Server</code> (and that incidentally represents the client app on the server).
-
+> <code>Client</code> apps own a reception component : <code>ReceiverImpl</code>, that enable <code>Server</code> app to send them immediately received messages (instant messaging).
+> 
+> Reception components also provide functions that enable <code>Server</code> app to push to clients the list of connected clients (<code>initClients</code> function) then to update this list (<code>addClient</code> and <code>remClient</code> functions).
+> 
+> Reception component <code>ReceiverImpl</code> references are provided to <code>Server</code> app thanks to an input parameter (<code>Receiver</code>) of the connect function of the server’s <code>Connection</code> component. 
+> This function returns a reference of the <code>Emitter</code> component that is instantiated to be used by the client to send messages to the <code>Server</code> (and that incidentally represents the client app on the server).
+> 
+> Sylvain VAUTTIER, IMT Mines Alès.
 
 ## Looking ahead
 
