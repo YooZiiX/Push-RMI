@@ -24,7 +24,3 @@ Implementation of the Client-Server Architecture : Push, using Remote Method Inv
 > This function returns a reference of the <code>Emitter</code> component that is instantiated to be used by the client to send messages to the <code>Server</code> (and that incidentally represents the client app on the server).
 > 
 > <b>Sylvain VAUTTIER</b>, IMT Mines Alès.
-
-## Looking ahead
-
-- Creating a User Interface
